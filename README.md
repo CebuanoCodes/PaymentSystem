@@ -16,6 +16,8 @@
 
 3. Clean and build and run the application.
 
+**Using Postman**
+
 4. Using postman, Run https://localhost:5001/api/login using Post 
    with a Body :
    {"Username": "john_admin", "Password":"MyPass_w0rd"}
