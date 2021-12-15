@@ -18,7 +18,7 @@
 
 **Using Postman**
 
-4. Using postman, Run https://localhost:5001/api/login using Post 
+4. Using postman, Run https://localhost:44363/api/login using Post 
    with a Body :
    {"Username": "john_admin", "Password":"MyPass_w0rd"}
 
@@ -26,4 +26,4 @@
 
 6. Paste the token in the Authorization (using bearer token)
 
-7. Run https://localhost:5001/api/users/2 using Get
+7. Run https://localhost:44363/api/users/2 using Get
