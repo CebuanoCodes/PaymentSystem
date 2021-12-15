@@ -27,3 +27,10 @@
 6. Paste the token in the Authorization (using bearer token)
 
 7. Run https://localhost:44363/api/users/2 using Get
+
+**Assumptions and Considerations
+
+The most important thing to consider for creating APIs is to have consistency by following web conventions and standards.
+For this API, JSON, SSL and HTTP Response/Status codes are the building blocks. The system is created using a database first approach. The endpoints accepts and responds with JSON payload. Nouns are also used in the endpoint paths. Paths of endpoints should be consistent and should use only nouns since the HTTP methods indicate the action we want to take.
+
+For the Authentication and Authorization, It is implemented through user authentication and authorizing the endpoint. 
